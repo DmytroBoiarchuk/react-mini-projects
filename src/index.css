@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(28 25 23);
+    padding: 4rem 2rem 4rem 2rem;
+    width: 17.9rem;
+    height: 100%;
+    border-radius: 0 0.75rem 0.75rem 0;
+}
+.side-bar h2{
+    color: rgb(231 229 228 );
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+.main-screen{
+    height: 100vh;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.btn{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.375rem;
+    font-family: inherit;
+    color: rgb(41 37 36);
+}
+.add-proj-btn{
+    color: rgb(168 162 158);
+    background-color: rgb(68 64 60);
+}
+.add-proj-btn:hover {
+    color: rgb(245 245 244);
+    background-color: rgb(87 83 78);
+}
+
+.create-new-proj-btn{
+    background-color: rgb(68 64 60);
+    color: rgb(168 162 158);
+    margin-top: 1rem;
+
+}
+.create-new-proj-btn:hover{
+    color: rgb(245 245 244);
+    background-color: rgb(87 83 78);
+}
+.proj-box{
+    width: 66%;
+    display: flex;
+    margin-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+}
+.proj-creating-box{
+    width: 35rem;
+    margin-top: 4rem;
+}
+.proj-box h2{
+    margin: 1rem 0 1rem 0;
+    color: rgb(120 113 108);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.proj-box p{
+    color: rgb(168 162 158);
+    margin-bottom: 1rem ;
+}
+
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+}
+.btn-menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.save-btn{
+    background-color: rgb(41 37 36) ;
+    color: rgb(250 250 249);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+.input-box{
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.input-box label {
+    color: rgb(120 113 108);
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.2rem;
+}
+.input-box input{
+    color: rgb(87 83 78);
+    background-color: rgb(231 229 228);
+    border-bottom-width: 2px;
+    border-radius: 0.125rem;
+    width: 100%;
+    padding: 0.25rem;
+    border-color: rgb(214 211 209);
+}
+.input-box textarea{
+    width: 100%;
+    color: rgb(87 83 78);
+    padding: 0.25rem;
+    background-color: rgb(231 229 228);
+    border-color: rgb(214 211 209);
+    border-bottom-width: 2px;
+    border-radius: 0.125rem;
+    resize: vertical;
+}
+.input-box input:focus {
+    outline: none;
+    border-color: rgb(87 83 78);
+}
+.input-box textarea:focus{
+    outline: none;
+    border-color: rgb(87 83 78);
+
+}
+.list-btn{
+    text-align: left;
+    width: 100%;
+    border-radius: 0.125rem;
+    padding:0.25rem 0.5rem 0.25rem 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: rgb(168 162 158);
+}
+.list-btn-active{
+    text-align: left;
+    width: 100%;
+    border-radius: 0.125rem;
+    padding:0.25rem 0.5rem 0.25rem 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: rgb(245 245 244);
+    background-color: rgb(87 83 78);
+}
+.list-btn:hover{
+    color: rgb(231 229 228);
+    background-color: rgb(41 37 36);
+}
+.list-box{
+    width: 100%;
+    margin-top: 2rem;
+}
+.proj-header{
+    padding-bottom: 1rem;
+    border-color: rgb(214 211 209);
+    border-bottom-width: 2px;
+    margin-bottom: 1rem;
+}
+.proj-header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.proj-header div h1 {
+    color: rgb(87 83 78);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.proj-header div button{
+    color: rgb(87 83 78);
+
+}
+.proj-header div button:hover{
+    color: rgb(12 10 9);
+}
+.date-info{
+    color: rgb(168 162 158);
+    margin-bottom: 1rem;
+}
+.description-info{
+    color: rgb(87 83 78);
+    white-space: pre-wrap;
+}
+
+#proj-section h2{
+    color: rgb(68 64 60);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+#proj-section form {
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+}
+#proj-section form input{
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    background-color: rgb(231 229 228);
+    border-radius: 0.125rem;
+    width: 16rem;
+}
+#proj-section form button {
+    color: rgb(68 64 60);
+}
+#proj-section form button:hover {
+    color: rgb(12 10 9);
+}
+#proj-section ul {
+    padding: 1rem;
+    background-color: rgb(245 245 244);
+    border-radius: 0.375rem;
+    margin-top: 2rem;
+}
+#proj-section ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#proj-section ul li button{
+    color: rgb(68 64 60);
+}
+.dialog{
+    border-radius: 0.375rem;
+    padding: 1rem;
+}
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+}
+.dialog h2{
+    color: rgb(68 64 60);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.dialog p{
+    color: rgb(87 83 78);
+    margin-bottom: 1rem;
+}
+.dialog form{
+    text-align: right;
+    margin-top: 1rem;
+}
+.dialog form button {
+    color: rgb(168 162 158);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(68 64 60 );
+    border-radius: 0.375rem;
+}
